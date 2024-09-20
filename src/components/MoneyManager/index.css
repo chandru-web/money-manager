@@ -1,0 +1,165 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #fff;
+  height: 100vh;
+  padding: 10px 20px 10px 20px;
+}
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  width: 100%;
+  height: 20%;
+  background-size: cover;
+  padding: 5px 0px 0px 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.user-name {
+  color: #475569;
+  font-size: 30px;
+  font-weight: bold;
+}
+.welcome-text {
+  color: #475569;
+  font-weight: 600;
+  font-size: 20px;
+}
+.money-manager-text {
+  color: #0b69ff;
+}
+
+@media screen and (max-width: 600px) {
+  .profile-container {
+    text-align: center;
+  }
+  .user-name {
+    font-size: 24px;
+  }
+  .welcome-text {
+    font-size: 15px;
+  }
+}
+.form-history-container {
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-details-container {
+  width: 40%;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #cbd5e1;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.5);
+}
+
+.transaction-heading {
+  font-weight: 500;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+label {
+  color: #334155;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+input:focus,
+select:focus {
+  border-color: #0b69ff;
+  outline: none;
+}
+.add-button {
+  background-color: #0b69ff;
+  color: #fff;
+  padding: 10px;
+  border: 0px solid #0b69ff;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .form-history-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .transaction-details-container {
+    width: 100%;
+  }
+}
+
+.history-container {
+  width: 50%;
+  border: 1px solid #aaa;
+  padding: 30px;
+
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.history-heading {
+  color: #334155;
+  font-size: 30px;
+}
+.history-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 576px) {
+  .history-container {
+    width: 100%;
+  }
+  .history-list {
+    width: 100%;
+  }
+  .header h1 {
+    font-size: 10px;
+  }
+}
+
+.history-container {
+  margin-top: 20px;
+}
+
+.history-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.history-list {
+  padding: 0;
+  border: 1px solid #334155;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.header span {
+  flex: 1;
+  text-align: center;
+}

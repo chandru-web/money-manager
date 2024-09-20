@@ -1,0 +1,35 @@
+.list-item {
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.history-item h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.transaction-title,
+.transaction-amount,
+.transaction-type {
+  padding: 0 10px;
+}
+
+.delete-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  height: 20px;
+  width: 20px;
+}
